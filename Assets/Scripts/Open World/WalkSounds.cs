@@ -8,9 +8,6 @@ public class WalkSounds : MonoBehaviour
     public AudioClip WalkSand1;
     public AudioClip WalkSand2;
 
-    public AudioClip WalkWood1;
-    public AudioClip WalkWood2;
-
     public AudioClip WalkGrass1;
     public AudioClip WalkGrass2;
 
@@ -49,12 +46,6 @@ public class WalkSounds : MonoBehaviour
                 controller.m_FootstepSounds[1] = WalkSand2;
             }
 
-            else if (hit.gameObject.name.Contains("wood"))
-            {
-                ActualGameObject = hit.gameObject.transform.parent.name;
-                controller.m_FootstepSounds[0] = WalkWood1;
-                controller.m_FootstepSounds[1] = WalkWood2;
-            }
 
             else if (hit.gameObject.transform.parent.name == "Environement")
             {

@@ -4,11 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ReticuleEvent : MonoBehaviour
-{
-    private bool isEnter = false;
+{ /*  private bool isEnter = false;
     Object objectSelected;
-    public AudioSource ButtonClick;
-    public Text InteractText;
+    public AudioSource SpeakingAudio;
+    public Text QuestText;
 
     
 
@@ -35,5 +34,6 @@ public class ReticuleEvent : MonoBehaviour
     {
         isEnter = false;
         InteractText.text = " ";
-    }
+    }*/
+ 
 }
